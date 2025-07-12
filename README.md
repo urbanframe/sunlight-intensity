@@ -12,4 +12,3 @@ Using the measure tool draw a line parallel with the sides of your property from
 
 <img width="672" height="853" alt="image" src="https://github.com/user-attachments/assets/5750ecb5-b3b1-484f-ba22-80c384f3500f" />
 
-
