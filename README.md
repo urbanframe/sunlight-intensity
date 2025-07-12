@@ -42,7 +42,6 @@ Eg, 51.501079°N 0.142612°W would be:
 * Longitude: 51.501079
 * Latitude: -0.142612
 
-test?
 
 Using the measure tool, draw a line parallel with the sides of your property from the rear to the front. The rotation will be displayed as the heading in the measure toolbox.
 
