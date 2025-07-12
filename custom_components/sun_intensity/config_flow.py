@@ -1,4 +1,4 @@
-"""Config flow for Sun Wall Intensity integration."""
+"""Config flow for Sunlight Intensity integration."""
 from __future__ import annotations
 
 import logging
