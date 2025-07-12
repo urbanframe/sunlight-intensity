@@ -7,7 +7,7 @@ Home Assistant integration to display the intensity of the sun on your house wal
 
 # Configuration
 
-Configuration of the integration requires the longitude latitude and rotation of your property. This information can be obtained from Google Earth.
+Configuration requires the longitude, latitude and rotation of your property. This information can be obtained from [Google Earth](https://earth.google.com).
 
 Change the latitude and longitude format to decimal, using the settings.  The longitude and latitude can be seen in the bottom right hand corner.
 
@@ -17,3 +17,5 @@ Using the measure tool draw a line parallel with the sides of your property from
 
 
 <img width="1280" height="1044" alt="image" src="https://github.com/user-attachments/assets/3338f357-1322-4a61-984d-6c438c3dc776" />
+
+<img width="422" height="413" alt="image" src="https://github.com/user-attachments/assets/dc4cba10-f798-4010-ac25-058bbbcd73dd" />
