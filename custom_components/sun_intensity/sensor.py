@@ -97,7 +97,7 @@ class SunWallIntensityCoordinator(DataUpdateCoordinator):
 
 
 class SunWallIntensitySensor(CoordinatorEntity, SensorEntity):
-    """Representation of a Sun Wall Intensity sensor."""
+    """Representation of a Sunlight Intensity sensor."""
 
     def __init__(
         self,
@@ -147,8 +147,8 @@ class SunWallIntensitySensor(CoordinatorEntity, SensorEntity):
         """Return device information."""
         return {
             "identifiers": {(DOMAIN, self._config_entry.entry_id)},
-            "name": "Sun Wall Intensity",
-            "manufacturer": "Custom",
-            "model": "Sun Wall Intensity Calculator",
+            "name": "Sunlight Intensity",
+            "manufacturer": "UrbanFrame",
+            "model": "Sunlight Intensity Calculator",
             "sw_version": "1.0.0",
         }
