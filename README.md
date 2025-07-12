@@ -6,7 +6,7 @@ Home Assistant integration to display the intensity of the sun on your house wal
 
 # Installation
 
-Sun Intensity can be installed via HACS or by copying the sun-intensity folder to the custom_components folder within Home Assistant.
+Sun Intensity can be installed via HACS or by copying the sun-intensity folder to the [custom_components](https://github.com/urbanframe/sun-intensity/tree/main/custom_components/sun_intensity) folder within Home Assistant.
 
 # Configuration
 
