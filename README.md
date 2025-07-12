@@ -1,8 +1,8 @@
 <img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/7968de98-6374-4b1e-977a-df659aa61c53" />
 
-# Sun Intensity 
+# Sunlight Intensity 
 
-Home Assistant integration to display the intensity of the sun on each of your properties walls, based on the suns direction (Azimuth).
+Add sunlight intensity to your dashboards and automations with this integration. **Sunlight Intensity** provides a percentage for each of your property’s walls, based on the suns direction (Azimuth).
 
 As the Sun moves around your house, each wall sensor will display a percentage of how much sunlight is on that wall. When the sun is at 90° to a wall, the entity will be at 100%.
 
@@ -17,7 +17,7 @@ As the Sun moves around your house, each wall sensor will display a percentage o
 
 # Installation
 
-Sun Intensity can be installed via HACS or by copying the sun-intensity folder to the [custom_components](https://github.com/urbanframe/sun-intensity/tree/main/custom_components/sun_intensity) folder within Home Assistant.
+**Sun Intensity** can be installed via HACS or by copying the sun-intensity folder to the [custom_components](https://github.com/urbanframe/sun-intensity/tree/main/custom_components/sun_intensity) folder within Home Assistant.
 
 # Configuration
 
