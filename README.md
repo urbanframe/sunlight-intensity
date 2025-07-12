@@ -49,5 +49,4 @@ Using the measure tool draw a line parallel with the sides of your property from
 
 <img width="1280" height="1044" alt="image" src="https://github.com/user-attachments/assets/3338f357-1322-4a61-984d-6c438c3dc776" />
 
-<img width="422" height="413" alt="image" src="https://github.com/user-attachments/assets/dc4cba10-f798-4010-ac25-058bbbcd73dd" />
 
