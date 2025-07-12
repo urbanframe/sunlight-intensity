@@ -9,19 +9,22 @@ Home Assistant integration to display the intensity of the sun on your house wal
 
 Configuration requires the longitude, latitude and rotation of your property. This information can be obtained from [Google Earth](https://earth.google.com).
 
-Change the latitude and longitude format to decimal, using the settings.  The longitude and latitude can be seen in the bottom right hand corner.
-
-Latitude ending with N = Positive number
-Latitude ending with S = Negative number
-Longitude ending with E = Positive number
-Longitude ending with W = Negative number
-
-Eg, 51.501079°N 0.142612°W would be:
-Longitude: 51.501079
-Latitude: -0.142612
-
+Change the latitude and longitude format to decimal, using the settings.  
 
 <img width="672" height="853" alt="image" src="https://github.com/user-attachments/assets/5750ecb5-b3b1-484f-ba22-80c384f3500f" />
+
+The longitude and latitude can be seen in the bottom right hand corner.
+
+* Latitude ending with N = Positive number
+* Latitude ending with S = Negative number
+* Longitude ending with E = Positive number
+* Longitude ending with W = Negative number
+
+Eg, 51.501079°N 0.142612°W would be:
+* Longitude: 51.501079
+* Latitude: -0.142612
+
+
 
 Using the measure tool draw a line parallel with the sides of your property from the rear to the front. The rotation will be displayed as the heading in the measure toolbox.
 
