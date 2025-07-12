@@ -44,7 +44,7 @@ Eg, 51.501079°N 0.142612°W would be:
 
 
 
-Using the measure tool draw a line parallel with the sides of your property from the rear to the front. The rotation will be displayed as the heading in the measure toolbox.
+Using the measure tool, draw a line parallel with the sides of your property from the rear to the front. The rotation will be displayed as the heading in the measure toolbox.
 
 
 <img width="1280" height="1044" alt="image" src="https://github.com/user-attachments/assets/3338f357-1322-4a61-984d-6c438c3dc776" />
