@@ -23,16 +23,20 @@ Sun Intensity can be installed via HACS or by copying the sun-intensity folder t
 
 Configuration requires the longitude, latitude and rotation of your property. This information can be obtained from [Google Earth](https://earth.google.com).
 
-Change the latitude and longitude format to decimal, using the settings.  
+In Google Earth change the latitude and longitude format to decimal within the settings.  
 
 <img width="336" height="427" alt="image" src="https://github.com/user-attachments/assets/5750ecb5-b3b1-484f-ba22-80c384f3500f" />
 
-The longitude and latitude can be seen in the bottom right hand corner.
 
-* Latitude ending with N = Positive number
-* Latitude ending with S = Negative number
-* Longitude ending with E = Positive number
-* Longitude ending with W = Negative number
+The longitude and latitude can be seen in the bottom right hand corner. Ensure your coridinates are positive or negative nubers with the table below.
+
+|Coordinate|Bearing|Decimal|
+|-|-|-|
+|Latitude|N|Positive|
+|Latitude|S|Negative|
+|Longitude|E|Positive|
+|Longitude|W|Negative|
+
 
 Eg, 51.501079°N 0.142612°W would be:
 * Longitude: 51.501079
