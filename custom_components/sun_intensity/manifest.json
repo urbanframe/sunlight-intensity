@@ -1,8 +1,8 @@
 {
-  "domain": "sun_wall_intensity",
-  "name": "Sun Intensity",
+  "domain": "sunlight_intensity",
+  "name": "Sunlight Intensity",
   "config_flow": true,
-  "documentation": "https://github.com/urbanframe/sun-intensity",
+  "documentation": "https://github.com/urbanframe/sunlight-intensity",
   "requirements": ["pytz"],
   "codeowners": ["@urbanframe"],
   "version": "1.0.0",
