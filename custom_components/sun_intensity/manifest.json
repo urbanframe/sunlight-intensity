@@ -1,10 +1,10 @@
 {
   "domain": "sun_wall_intensity",
-  "name": "Sun Wall Intensity",
+  "name": "Sun Intensity",
   "config_flow": true,
-  "documentation": "https://github.com/yourusername/sun_wall_intensity",
+  "documentation": "https://github.com/urbanframe/sun-intensity",
   "requirements": ["pytz"],
-  "codeowners": ["@yourusername"],
+  "codeowners": ["@urbanframe"],
   "version": "1.0.0",
   "iot_class": "calculated"
 }
