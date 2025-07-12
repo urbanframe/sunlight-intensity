@@ -1,4 +1,4 @@
-<img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/a1618b88-949a-4517-bc9c-53753430e59e" />
+<img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/7968de98-6374-4b1e-977a-df659aa61c53" />
 
 # Sun Intensity 
 
