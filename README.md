@@ -11,7 +11,7 @@ Configuration requires the longitude, latitude and rotation of your property. Th
 
 Change the latitude and longitude format to decimal, using the settings.  
 
-<img width="672" height="853" alt="image" src="https://github.com/user-attachments/assets/5750ecb5-b3b1-484f-ba22-80c384f3500f" />
+<img width="336" height="427" alt="image" src="https://github.com/user-attachments/assets/5750ecb5-b3b1-484f-ba22-80c384f3500f" />
 
 The longitude and latitude can be seen in the bottom right hand corner.
 
