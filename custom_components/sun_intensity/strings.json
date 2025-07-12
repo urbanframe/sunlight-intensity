@@ -2,8 +2,8 @@
   "config": {
     "step": {
       "user": {
-        "title": "Sun Wall Intensity Configuration",
-        "description": "Configure the Sun Wall Intensity integration",
+        "title": "Sunlight Intensity Configuration",
+        "description": "Configure the Sunlight Intensity integration",
         "data": {
           "latitude": "Latitude (degrees)",
           "longitude": "Longitude (degrees)",
@@ -21,8 +21,8 @@
   "options": {
     "step": {
       "user": {
-        "title": "Sun Wall Intensity Options",
-        "description": "Update the Sun Wall Intensity configuration",
+        "title": "Sunlight Intensity Options",
+        "description": "Update the Sunlight Intensity configuration",
         "data": {
           "latitude": "Latitude (degrees)",
           "longitude": "Longitude (degrees)",
