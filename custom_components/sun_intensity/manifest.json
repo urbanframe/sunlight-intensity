@@ -1,0 +1,10 @@
+{
+  "domain": "sun_wall_intensity",
+  "name": "Sun Wall Intensity",
+  "config_flow": true,
+  "documentation": "https://github.com/yourusername/sun_wall_intensity",
+  "requirements": ["pytz"],
+  "codeowners": ["@yourusername"],
+  "version": "1.0.0",
+  "iot_class": "calculated"
+}
