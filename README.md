@@ -2,7 +2,18 @@
 
 # Sun Intensity 
 
-Home Assistant integration to display the intensity of the sun on your house walls, based on the suns direction (Azimuth).
+Home Assistant integration to display the intensity of the sun on each of your propertie's walls, based on the suns direction (Azimuth).
+
+As the Sun moves around your house, each wall sensor will display a percentage of how much sunlight is on that wall. When the sun is at 90° to a wall, the entity will be at 100%.
+
+<img width="338" height="342" alt="image" src="https://github.com/user-attachments/assets/fcacff10-415b-45b9-852c-eb2fcbba7ef1" />
+
+# Usage and Automation Ideas
+
+ 🤖: Close Blinds at rear of house when Back Wall Intensity reaches 80%
+ 
+ 🤖: Turn on Fan when Right Wall Intensity exceeds 50%
+
 
 # Installation
 
