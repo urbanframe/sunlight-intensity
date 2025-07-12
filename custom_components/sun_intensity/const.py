@@ -1,6 +1,6 @@
-"""Constants for the Sun Wall Intensity integration."""
+"""Constants for the Sunlight Intensity integration."""
 
-DOMAIN = "sun_wall_intensity"
+DOMAIN = "sunlight_intensity"
 
 # Configuration keys
 CONF_LATITUDE = "latitude"
