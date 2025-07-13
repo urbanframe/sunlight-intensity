@@ -10,10 +10,11 @@ As the Sun moves around your house, each wall sensor will display a percentage o
 
 # Usage and Automation Ideas
 
- 🤖: Close Blinds at rear of house when Back Wall Intensity reaches 80%
+🤖:  Close Blinds at rear of house when Back Wall Intensity reaches 80%
  
- 🤖: Turn on Fan when Right Wall Intensity exceeds 50%
-
+🤖:  Turn on Fan when Right Wall Intensity exceeds 50%
+ 
+🌞:  Know when your solar panels will reach peak production.
 
 # Installation
 
