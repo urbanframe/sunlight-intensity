@@ -1,12 +1,11 @@
 {
   "domain": "sunlight_intensity",
   "name": "Sunlight Intensity",
+  "codeowners": ["@urbanframe"],
   "config_flow": true,
   "documentation": "https://github.com/urbanframe/sunlight-intensity",
-  "requirements": ["pytz"],
-  "codeowners": ["@urbanframe"],
-  "version": "1.0.0",
-  "iot_class": "calculated"
+  "iot_class": "calculated",
   "issue_tracker": "https://github.com/urbanframe/sunlight-intensity/issues",
-
+  "requirements": ["pytz"],
+  "version": "1.0.0"
 }
