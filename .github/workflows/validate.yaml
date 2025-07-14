@@ -7,8 +7,6 @@ on:
     - cron: "0 0 * * *"       # runs daily at midnight UTC
   workflow_dispatch:         # allows manual runs
 
-permissions: {}
-
 jobs:
   validate-hacs:
     runs-on: ubuntu-latest
