@@ -1,18 +1,26 @@
-name: Validate HACS
+name: "Validate"
 
 on:
   push:
   pull_request:
+  release:
+    types: [published, prereleased]
   schedule:
-    - cron: "0 0 * * *"       # runs daily at midnight UTC
-  workflow_dispatch:         # allows manual runs
-
+    - cron:  '0 0 * * *'
 jobs:
-  validate-hacs:
+  hassfest:
+    name: HACS hassfest
+    runs-on: "ubuntu-latest"
+    steps:
+        - uses: "actions/checkout@v4"
+        - uses: "home-assistant/actions/hassfest@master"
+  hacs:
+    name: HACS Validation
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+
       - name: HACS validation
         uses: hacs/action@main
         with:
-          category: "integration"
-          # ignore: "description topics"   # optionally ignore checks
+          category: integration
