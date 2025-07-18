@@ -27,7 +27,17 @@ def calculate_sun_angle(latitude, longitude, dt=None, timezone_str='UTC'):
         dt = pytz.timezone(timezone_str).localize(dt)
     
     # Convert to UTC for calculations
-    dt_utc = (dt + timedelta(hours=1)).astimezone(pytz.UTC)
+    # dt_utc = (dt + timedelta(hours=1)).astimezone(pytz.UTC)
+    
+    # Find difference between user timezone and utc.  
+    tz1 = pytz.timezone(timezone_str)
+    now = datetime.now()
+    tzDiff = tz1.utcoffset(now).total_seconds()/3600
+    #print(f"Time Difference: {tzDiff}")
+
+
+    # Convert to UTC for calculations
+    dt_utc = (dt + timedelta(hours=tzDiff)).astimezone(pytz.UTC) # New line to add difference between user timezone and UTC
     
     # Convert latitude and longitude to radians
     lat_rad = math.radians(latitude)
