@@ -29,7 +29,7 @@ In Google Earth change the latitude and longitude format to decimal within the s
 <img width="336" height="427" alt="image" src="https://github.com/user-attachments/assets/5750ecb5-b3b1-484f-ba22-80c384f3500f" />
 
 
-The longitude and latitude can be seen in the bottom right hand corner. Ensure your coridinates are positive or negative nubers with the table below.
+The latitude and longitude can be seen in the bottom right hand corner. Ensure your coridinates are positive or negative nubers with the table below.
 
 |Coordinate|Bearing|Decimal|
 |-|-|-|
@@ -40,8 +40,8 @@ The longitude and latitude can be seen in the bottom right hand corner. Ensure y
 
 
 Eg, 51.501079°N 0.142612°W would be:
-* Longitude: 51.501079
-* Latitude: -0.142612
+* Latitude: 51.501079
+* Longitude: -0.142612
 
 
 Using the measure tool, draw a line parallel with the sides of your property from the rear to the front. The rotation will be displayed as the heading in the measure toolbox.
