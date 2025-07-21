@@ -18,9 +18,8 @@ def calculate_sun_angle(latitude, longitude, dt=None, timezone_str='UTC'):
         dict: {'elevation': float, 'azimuth': float} in degrees
     """
     
-    # Use current time if not provided
-    if dt is None:
-        dt = datetime.now(pytz.timezone(timezone_str))
+    # Use current time with timezone_str
+    dt = datetime.now(pytz.timezone(timezone_str))
     
     # Ensure datetime is timezone-aware
     if dt.tzinfo is None:
