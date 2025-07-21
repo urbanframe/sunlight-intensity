@@ -18,9 +18,8 @@ def calculate_sun_angle(latitude, longitude, dt=None, timezone_str='UTC'):
         dict: {'elevation': float, 'azimuth': float} in degrees
     """
     
-    # Use current time if not provided
-    if dt is None:
-        dt = datetime.now(pytz.timezone(timezone_str))
+    # Use current time with timezone_str
+    dt = datetime.now(pytz.timezone(timezone_str))
     
     # Ensure datetime is timezone-aware
     if dt.tzinfo is None:
@@ -134,7 +133,7 @@ def angle_to_percentage(angle, offset, wall, sun_elevation):
             return (angle - 270) / 90 * 100
         elif 0 <= angle <= 90:
             # Falling from 0 to 90, e.g., 0 → 100%, 45 → 50%, 90 → 0%
-            return (1 - (angle / 90)) * 100
+            return (1-(angle / 90)) * 100
         else:
             return 0
         
@@ -145,7 +144,7 @@ def angle_to_percentage(angle, offset, wall, sun_elevation):
                 return (angle) / 90 * 100
             else:
                 # Falling from 0 to 90, e.g., 0 → 100%, 45 → 50%, 90 → 0%
-                return (1-(angle-180)) / 90 * 100
+                return (-(angle-180)) / 90 * 100
         else:
             return 0
 
@@ -156,7 +155,7 @@ def angle_to_percentage(angle, offset, wall, sun_elevation):
                 return (angle-180) / 90 * 100
             else:
                 # Falling from 0 to 90, e.g., 0 → 100%, 45 → 50%, 90 → 0%
-                return (1-(angle-360)) / 90 * 100
+                return (-(angle-360)) / 90 * 100
         else:
             return 0
 
@@ -167,6 +166,6 @@ def angle_to_percentage(angle, offset, wall, sun_elevation):
                 return (angle - 90) / 90 * 100
             else:
                 # Falling from 0 to 90, e.g., 0 → 100%, 45 → 50%, 90 → 0%
-                return (1-(angle-270)) / 90 * 100
+                return (-(angle-270)) / 90 * 100
         else:
             return 0

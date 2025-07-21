@@ -15,14 +15,24 @@ from .const import DOMAIN
 
 _LOGGER = logging.getLogger(__name__)
 
-STEP_USER_DATA_SCHEMA = vol.Schema(
-    {
-        vol.Required("latitude", default=0.0): vol.Coerce(float),
-        vol.Required("longitude", default=0.0): vol.Coerce(float),
-        vol.Required("house_angle", default=0.0): vol.Coerce(float),
-    }
-)
+def get_default_location(hass: HomeAssistant) -> tuple[float, float]:
+    """Get default latitude and longitude from Home Assistant configuration."""
+    # Get latitude and longitude from Home Assistant's configuration
+    latitude = hass.config.latitude or 0.0
+    longitude = hass.config.longitude or 0.0
+    return latitude, longitude
 
+def create_user_schema(hass: HomeAssistant) -> vol.Schema:
+    """Create the user schema with default values from Home Assistant."""
+    latitude, longitude = get_default_location(hass)
+    
+    return vol.Schema(
+        {
+            vol.Required("latitude", default=latitude): vol.Coerce(float),
+            vol.Required("longitude", default=longitude): vol.Coerce(float),
+            vol.Required("house_angle", default=0.0): vol.Coerce(float),
+        }
+    )
 
 async def validate_input(hass: HomeAssistant, data: dict[str, Any]) -> dict[str, Any]:
     """Validate the user input allows us to connect."""
@@ -68,8 +78,11 @@ class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
             else:
                 return self.async_create_entry(title=info["title"], data=user_input)
 
+        # Create schema with Home Assistant's location as defaults
+        user_schema = create_user_schema(self.hass)
+        
         return self.async_show_form(
-            step_id="user", data_schema=STEP_USER_DATA_SCHEMA, errors=errors
+            step_id="user", data_schema=user_schema, errors=errors
         )
 
     async def async_step_reconfigure(
