@@ -133,7 +133,7 @@ def angle_to_percentage(angle, offset, wall, sun_elevation):
             return (angle - 270) / 90 * 100
         elif 0 <= angle <= 90:
             # Falling from 0 to 90, e.g., 0 → 100%, 45 → 50%, 90 → 0%
-            return ( - (angle / 90)) * 100
+            return (-(angle / 90)) * 100
         else:
             return 0
         
