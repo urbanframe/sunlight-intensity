@@ -91,30 +91,6 @@ def calculate_sun_angle(latitude, longitude, dt=None, timezone_str='UTC'):
         'azimuth': azimuth_deg
     }
 
-
-def calculate_sun_position(latitude, longitude, house_angle, dt=None, timezone_str='UTC'):
-    """
-    Calculate sun position and wall intensities for a house.
-    
-    Args:
-        latitude (float): Latitude in degrees
-        longitude (float): Longitude in degrees
-        house_angle (float): House orientation (0° = North-facing front)
-        dt (datetime, optional): Datetime object
-        timezone_str (str): Timezone string
-    
-    Returns:
-        dict: Sun position and wall intensities
-    """
-    
-    # Get sun position
-    sun_pos = calculate_sun_angle(latitude, longitude, dt, timezone_str)
-    
-    return {
-        'sun_position': sun_pos,
-    }
-
-
 def angle_to_percentage(angle, offset, wall, sun_elevation):
     """
     Converts an angle (in degrees) to a percentage.
