@@ -10,7 +10,7 @@ As the Sun moves around your house, each wall sensor will display a percentage o
 
 Additional sensors:
 
-* [Sun angle](https://www.pveducation.org/pvcdrom/properties-of-sunlight/elevation-angle)
+* [Sun Elevation angle](https://www.pveducation.org/pvcdrom/properties-of-sunlight/elevation-angle)
 * [Sun Azimuth](https://en.wikipedia.org/wiki/Solar_azimuth_angle)
 
 
