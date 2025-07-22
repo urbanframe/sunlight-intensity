@@ -6,7 +6,13 @@ Add sunlight intensity to your dashboards and automations with this integration.
 
 As the Sun moves around your house, each wall sensor will display a percentage of how much sunlight is on that wall. When the sun is at 90° to a wall, the entity will be at 100%.
 
-<img width="338" height="342" alt="image" src="https://github.com/user-attachments/assets/fcacff10-415b-45b9-852c-eb2fcbba7ef1" />
+<img width="343" height="438" alt="image" src="https://github.com/user-attachments/assets/6ef3277a-39ed-4c47-b9cb-5d68c2b6bbfd" />
+
+Additional sensors:
+
+* [Sun angle](https://www.pveducation.org/pvcdrom/properties-of-sunlight/elevation-angle)
+* [Sun Azimuth](https://en.wikipedia.org/wiki/Solar_azimuth_angle)
+
 
 # Usage and Automation Ideas
 
