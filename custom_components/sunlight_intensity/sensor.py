@@ -117,7 +117,6 @@ class SunWallIntensitySensor(CoordinatorEntity, SensorEntity):
         self._config_entry = config_entry
         self._attr_name = f"Sun Wall Intensity {wall.title()}"
         self._attr_unique_id = f"{config_entry.entry_id}_{wall}"
-        self._attr_device_class = SensorDeviceClass.ILLUMINANCE
         self._attr_state_class = SensorStateClass.MEASUREMENT
         self._attr_native_unit_of_measurement = PERCENTAGE
         self._attr_icon = "mdi:white-balance-sunny"
