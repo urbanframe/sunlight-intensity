@@ -26,6 +26,9 @@ Additional sensors:
 
 **Sun Intensity** can be installed via HACS or by copying the sun-intensity folder to the [custom_components](https://github.com/urbanframe/sun-intensity/tree/main/custom_components/sun_intensity) folder within Home Assistant.
 
+
+[<img alt="image" src="https://my.home-assistant.io/badges/hacs_repository.svg" />]([http://google.com.au/](https://my.home-assistant.io/redirect/hacs_repository/?owner=urbanframe&repository=sunlight-intensity&category=integration))
+
 # Configuration
 
 Configuration requires the longitude, latitude and rotation of your property. This information can be obtained from [Google Earth](https://earth.google.com).
