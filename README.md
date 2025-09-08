@@ -24,7 +24,7 @@ Additional sensors:
 
 # Installation
 
-**Sun Intensity** can be installed via HACS or by copying the sun-intensity folder to the [custom_components](https://github.com/urbanframe/sun-intensity/tree/main/custom_components/sun_intensity) folder within Home Assistant.
+**Sun Intensity** can be installed via HACS or by copying the [sun-intensity](https://github.com/urbanframe/sunlight-intensity/tree/bf283502d08cb629fd388eee0d07925ebb3e601b/custom_components/sunlight_intensity) folder to the custom_components folder within Home Assistant.
 
 
 [<img src="https://my.home-assistant.io/badges/hacs_repository.svg" />](https://my.home-assistant.io/redirect/hacs_repository/?owner=urbanframe&repository=sunlight-intensity&category=integration)
