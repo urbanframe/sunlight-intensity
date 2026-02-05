@@ -24,10 +24,28 @@ Additional sensors:
 
 # Installation
 
-**Sun Intensity** can be installed via HACS or by copying the [sun-intensity](https://github.com/urbanframe/sunlight-intensity/tree/bf283502d08cb629fd388eee0d07925ebb3e601b/custom_components/sunlight_intensity) folder to the custom_components folder within Home Assistant.
-
+**Sun Intensity** can be installed via HACS 
 
 [<img src="https://my.home-assistant.io/badges/hacs_repository.svg" />](https://my.home-assistant.io/redirect/hacs_repository/?owner=urbanframe&repository=sunlight-intensity&category=integration)
+
+**Add the integration to your Home Assistant:**
+
+* Click above link to open in HACS. 
+* Click download
+* Select the latest version and click Download again
+* Restart Home Assistant when prompted (or restart manually from Settings > System > Restart)
+
+
+**Create the device:**
+
+* Navigate to Settings > Devices & Services
+* Click + Add Integration in the bottom right corner
+* Search for "Sun Intensity"
+* Click on Sun Intensity to add it
+
+
+Manual installation can be achieved by copying the [sun-intensity](https://github.com/urbanframe/sunlight-intensity/tree/bf283502d08cb629fd388eee0d07925ebb3e601b/custom_components/sunlight_intensity) folder to the custom_components folder within Home Assistant.
+
 
 # Configuration
 
@@ -38,7 +56,7 @@ In Google Earth change the latitude and longitude format to decimal within the s
 <img width="336" height="427" alt="image" src="https://github.com/user-attachments/assets/5750ecb5-b3b1-484f-ba22-80c384f3500f" />
 
 
-The latitude and longitude can be seen in the bottom right hand corner. Ensure your coridinates are positive or negative nubers with the table below.
+The latitude and longitude can be seen in the bottom right hand corner. Ensure your coordinates are positive or negative numbers with the table below.
 
 |Coordinate|Bearing|Decimal|
 |-|-|-|
